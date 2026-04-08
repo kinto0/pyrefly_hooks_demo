@@ -10,7 +10,7 @@ How do you enforce type checking with Pyrefly in Claude Code? We tested 5 approa
 |---|---|---|---|
 | Skill (gentle) | No | No | None — Claude skipped it |
 | Skill (mandatory) | No | No | None — still skipped |
-| CLAUDE.md | Yes | Yes | Voluntary (~80-90%) |
+| CLAUDE.md | Yes | Yes | Voluntary |
 | Hook (Stop + exit 2) | Yes | Yes | Enforced (100%) |
 | Hook (retry limit) | Yes | Yes | Enforced (3 attempts, then warns) |
 
