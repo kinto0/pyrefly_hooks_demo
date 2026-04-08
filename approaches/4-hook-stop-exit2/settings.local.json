@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "Stop": [{
+      "hooks": [{
+        "type": "command",
+        "command": "pyrefly check >&2 || exit 2",
+        "timeout": 30
+      }]
+    }]
+  }
+}

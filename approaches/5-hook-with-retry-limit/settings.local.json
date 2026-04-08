@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "Stop": [{
+      "hooks": [{
+        "type": "command",
+        "command": "bash approaches/5-hook-with-retry-limit/pyrefly-hook.sh",
+        "timeout": 30
+      }]
+    }]
+  }
+}
