@@ -1,10 +1,4 @@
 {
-  "permissions": {
-    "allow": [
-      "Bash(pyrefly check:*)",
-      "Bash(pyrefly:*)"
-    ]
-  },
   "hooks": {
     "Stop": [
       {
@@ -12,7 +6,7 @@
           {
             "type": "agent",
             "prompt": "Verify that all Python files in the src/ directory pass pyrefly type checking. Run `pyrefly check src/` and check the results. If there are any type errors, return ok: false with the errors. $ARGUMENTS",
-            "timeout": 120
+            "timeout": 30
           }
         ]
       }
